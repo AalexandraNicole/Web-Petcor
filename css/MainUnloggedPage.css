@@ -27,7 +27,7 @@ body {
 .container{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/HomePage.png);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/HomePage.avif);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -55,7 +55,7 @@ header {
 }
 
     .navigation a:hover {
-        color: #a13ea1;
+        color: rgb(89, 51, 20);
     }
 
 .navigation a::after{
@@ -78,7 +78,7 @@ header {
 .navigation .btnLogin {
     width: 130px;
     height: 50px;
-    background:  #873b87;
+    background:  rgb(89, 51, 20);
     border: 2px solid #ffffff73;
     outline: none;
     border-radius: 6px;
@@ -93,15 +93,15 @@ header {
 
     .navigation .btnLogin:hover {
         background: var(--mainColor);
-        color: #873b87;
-        border: 2px solid #873b87;
+        color: rgb(89, 51, 20);
+        border: 2px solid rgb(89, 51, 20);
     }
 
     .logo {
         position: absolute;
         width: 5vw;
         height: 5vw;
-        left: 4%;
+        left: 2%;
         bottom: -0.3vw;
     }
 
@@ -141,7 +141,7 @@ header {
     font-weight: bold;
     color: #fff;
     -webkit-text-stroke-width: 1.5px; /* Width of the stroke */
-    -webkit-text-stroke-color: #a13ea1; /* Color of the stroke */
+    -webkit-text-stroke-color: rgb(89, 51, 20); /* Color of the stroke */
 }
 #btn2{
     width: 350px;
@@ -149,7 +149,7 @@ header {
     padding-left: 20px;
     outline: none;
     border: 2px solid #ffffff73;
-    background: #a13ea1;
+    background: rgb(89, 51, 20);
     font-size: 1.2rem;
     font-weight: bold;
     margin-top: 15px;
@@ -162,7 +162,7 @@ header {
 .game{
     width: 400px;
     height: 400px;
-    background: url(../images/AppleCharacter.avif);
+    background: url(../images/WoodCharacter.avif);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -192,7 +192,7 @@ header {
     width: 100%;
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.712)),
-    url(../images/LoginPageSection1.png);
+    url(../images/LoginPageSection1.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -275,7 +275,7 @@ header {
 }
 
 .game-categories h2:hover {
-    color: #a13ea1;
+    color: rgb(89, 51, 20);
 }
 
 .category {
@@ -375,11 +375,11 @@ ul li a{
 }
 ul li a .fab{
     font-size: 1.2rem;
-    color: #a13ea1;
+    color: rgb(89, 51, 20);
     margin-right: 15px;
 }
 ul li a:hover{
-    color: #a13ea1;
+    color: rgb(89, 51, 20);
 }
 
 .footer-bottom{
@@ -394,7 +394,7 @@ ul li a:hover{
     font-size: 0.875rem;
 }
 .footer-bottom span{
-    color: #a13ea1;
+    color: rgb(89, 51, 20);
     font-weight: bold;
 }
 

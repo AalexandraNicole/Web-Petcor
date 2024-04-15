@@ -14,72 +14,32 @@
     </style>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FrOW</title>
+    <title>Contact Form</title>
     <link rel="stylesheet" href="../css/loginPage.css">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="contact-continer">
         <a href="MainUnloggedPage.html" >
             <span class="icon-back"><ion-icon name="arrow-back-outline"></ion-icon></span>
         </a>
-        <div class="form-box login">
-            <form action="">
-                <h1>Login</h1>
-                <div class="input-box">
-                    <input type="email" placeholder="Email" required="">
-                    <i class="bx bxs-envelope"></i>
-                </div>
-                <div class="input-box">
-                    <input type="password" placeholder="Password" required="">
-                    <i class="bx bxs-lock"></i>
-                </div>
-
-                <div class="remember-forgot">
-                    <label>
-                        <input type="checkbox"> Remember me
-                    </label>
-                    <a href="#"> Forgot password? </a>
-                </div>
-
-                <button type="submit" onclick="window.location='loggedPage.html';" id="btnLogin" class="btn"> Login </button>
-
-                <div class="register-link">
-                    <p> Don't have an account? <a href="#">Register</a></p>
-                </div>
-            </form>
-        </div>
-
-        <div class="form-box register">
-            <form action="">
-                <h1>Registration</h1>
-                <div class="input-box">
-                    <input type="text" placeholder="Username" required="">
-                    <i class="bx bxs-user"></i>
-                </div>
-                <div class="input-box">
-                    <input type="email" placeholder="Email" required="">
-                    <i class="bx bxs-envelope"></i>
-                </div>
-                <div class="input-box">
-                    <input type="password" placeholder="Password" required="">
-                    <i class="bx bxs-lock"></i>
-                </div>
-
-                <div class="remember-forgot">
-                    <label>
-                        <input type="checkbox"> I agree to the terms &amp; conditions
-                    </label>
-                </div>
-
-                <button type="submit" class="btn"> Register </button>
-
-                <div class="login-link">
-                    <p> Already have an account? <a href="#">Login</a></p>
-                </div>
-            </form>
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2> Contactați-ne </h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="94eaed2c-7ffc-4654-a67f-30400a870e3b">
+            <input type="text" name="name" placeholder="Nume" class="contact-inputs" required>
+            <input type="text" name="prenume" placeholder="Prenume" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Email" class="contact-inputs" required>
+            <input type="text" name="numar" placeholder="Telefon" class="contact-inputs" required>
+            <textarea name="message" placeholder="Scrie mesajul..." class="contact-inputs" required></textarea> 
+            <button type="submit">Trimite <ion-icon name="arrow-forward-outline"></ion-icon></button>
+        </form>
+        <div class="contact-right">
+            <img src="../images/tree.webp" alt="">
         </div>
     </div>
 
